@@ -1,8 +1,6 @@
 
 import pygame
-import os
-import sys
-import curses
+import time
 import curses
 pygame.init()
 
@@ -22,7 +20,7 @@ def player(window):
         window.addstr(10, 0, frames[i])
         window.refresh()
 
-        CLOCK.tick(FPS)
+        time.sleep((1/36))
 
 
 curses.wrapper(player)
