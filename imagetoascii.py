@@ -5,7 +5,7 @@ from PIL import Image
 
 
 
-#main converter
+
 def convert(img,size,gap):
     # OPEN IMAGE
 
