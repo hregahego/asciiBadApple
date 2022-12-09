@@ -1,14 +1,8 @@
 
-import pygame
+
 import time
 import curses
 pygame.init()
-
-FPS = 32
-CLOCK = pygame.time.Clock()
-
-pygame.mixer.music.load('bad_apple.wav')
-pygame.mixer.music.play(0)
 framesFiles = open('000frames.txt','r')
 
 frames = framesFiles.read().split(',\n')
