@@ -2,7 +2,7 @@
 
 import time
 import curses
-pygame.init()
+
 framesFiles = open('000frames.txt','r')
 
 frames = framesFiles.read().split(',\n')
